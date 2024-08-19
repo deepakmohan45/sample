@@ -1,0 +1,19 @@
+x={"apple", "orange","banana","anar"}
+print(x)
+x.add("watermelon")
+print(x)
+y={1,2,3,4,5}
+x.update(y)
+print(x)
+y.remove(4)
+print(y)
+y.pop()
+print(y)
+z=x.union(y)
+print(z)
+a={1,2,3,4,5}
+b={1,2,6,7,8}
+c=a.intersection(b)
+print(c)
+c=a.difference(b)
+print(c)

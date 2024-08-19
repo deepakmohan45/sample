@@ -1,0 +1,27 @@
+x="python ,is a programming, language"
+print(x)
+print(type(x))
+print(len(x))
+print(x[2])
+print("is " in x)
+print("is " not in x)
+print(x[5:10])
+print(x[5:])
+print(x[:5])
+print(x[-1])
+print(x[-7:-3])
+print(x[-5:])
+print(x[:-4])
+for i in x:
+    print(i)
+print(x.upper()) 
+print(x.lower())  
+y="    Hello"
+print(y)
+print(y.strip())
+print(x.replace("is", "was"))
+print(x.split(","))
+print(x.count("a"))
+print(x + y)
+age=20
+print(f"My name is Deepak i am {age}" )

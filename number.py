@@ -1,0 +1,11 @@
+x=5
+y=2.4
+z=3+4j
+print(x)
+print(y)
+print(z)
+print(type(x))
+print(type(y))
+print(type(z))
+a=int(x)
+print(a)
